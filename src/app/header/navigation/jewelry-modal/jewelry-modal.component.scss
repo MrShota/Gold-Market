@@ -1,0 +1,73 @@
+// ---------------მოდალ
+.modal {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+
+    // gap: 20px;
+    position: absolute;
+    left: 10%;
+    background-color: rgba(255, 255, 255, .8);
+    // background-color: red;
+
+
+
+    // border: 1px solid red;
+}
+
+.modal>* {
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 15px;
+    text-align: center;
+    padding: auto;
+    // border: 1px solid green;
+
+}
+
+.modal> :first-child {
+    margin-left: 17%;
+
+}
+
+.modal a {
+    text-decoration: none;
+    height: 25px;
+    // color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    text-align: center;
+    padding: auto;
+}
+
+.modal a:hover {
+    // box-shadow:
+        // 0 -5px 10px rgba(0, 0, 10, .5),
+        /* Top shadow */
+        // 0 5px 10px rgba(0, 0, 10, .5);
+    /* Bottom shadow */
+    color: var(--hover-red);
+    // border-bottom: .5px solid red;
+}
+
+.modal h2 {
+    font-size: 1vw;
+    color: var(--hover-red);
+    padding-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap !important;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+
+.images img {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+}

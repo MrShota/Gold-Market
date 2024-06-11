@@ -1,0 +1,74 @@
+.top-container {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 1%;
+}
+
+h1 {
+    font-size: 2vw;
+    letter-spacing: 5px;
+}
+
+.line1,
+.line2 {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+.main-container {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.profile-photo {
+    width: 30%;
+}
+
+[alt=expert] {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.text {
+    display: inline-block;
+    width: 65%;
+    height: 300px;
+    font-size: 1.5rem;
+    padding-right: 100px;
+
+}
+
+[alt=diamond] {
+    width: 80px;
+    rotate: -40deg;
+    float: right;
+}
+
+[alt=right] {
+    width: 20px;
+}
+
+.text :nth-child(1) {
+    color: var(--hover-red);
+    padding-top: 30px;
+}
+
+.text :nth-child(2) {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.text :nth-child(5) {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}

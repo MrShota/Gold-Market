@@ -1,0 +1,65 @@
+.top-container {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 1%;
+}
+
+h1 {
+    font-size: 2vw;
+    letter-spacing: 5px;
+}
+
+.line1,
+.line2 {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+.flex-container {
+    width: 90%;
+    max-width: 1500px;
+    margin-inline: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+.three,
+.five,
+.seven{
+    width: 48%;
+    height: auto;
+    align-content: center;
+}
+.one,
+.two,
+.four,
+.six,
+.eight,
+.nine{
+    width: 25%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.flex-container img {
+    width: auto;
+    height: 40vh;
+    object-fit:contain;
+    // display: block;
+}
+.one img{
+    rotate: -55deg;
+    padding-top: 10px;
+}
+.flex-container button{
+    border: none;
+    border-radius:6px;
+    color: white;
+    background-color: var(--hover-red);
+    font-size: 4rem;
+}

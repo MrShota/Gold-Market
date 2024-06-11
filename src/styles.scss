@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "BOSQUE";
+
+}
+
+:root {
+    --hover-red: #AC0101;
+}
+
+@font-face {
+    font-family: 'BOSQUE';
+    src: url('./assets/fonts/BOSQUE.otf') format('opentype'); /* Replace with your font file path and format */
+    font-weight: normal;
+    font-style: normal;
+}

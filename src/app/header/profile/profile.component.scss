@@ -1,0 +1,189 @@
+.top {
+    width: 90%;
+    max-width: 1500px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.burger-menu{
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+.burger-menu img:hover{
+    content: url('../../../assets/icons/burger-menu.png');
+}
+
+// ---------logo 
+
+
+[alt=logo] {
+    width: 15%;
+
+}
+
+
+
+/// --------------- left side 
+.left {
+    display: inline-block;
+    padding: 1rem 1rem 1rem 1rem;
+
+
+}
+
+.right {
+    float: right;
+    padding: 1rem 1rem 1rem 1rem;
+
+
+}
+
+.left img,
+.right img {
+    width: 1rem;
+}
+
+.left a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.left a:hover {
+    color: var(--hover-red);
+}
+
+.left ::after {
+    // content: '';
+    // display: inline-block;
+}
+
+
+[alt=search] {
+    margin-left: 2rem;
+}
+
+[alt=smartphone] {
+    display: none;
+}
+
+.left input {
+    width: 4rem;
+    padding-left: .5rem;
+    border: none;
+    text-decoration: none;
+}
+
+.left input:focus {
+    outline: none;
+    border-bottom: 1px solid red;
+}
+
+
+
+
+// ------------ right side 
+
+.right a {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.my-account span {
+    margin-left: 5px;
+}
+
+.my-account span:hover {
+    color: var(--hover-red);
+}
+
+.my-account:hover [alt=user] {
+    content: url('../../../assets/icons/user1.png');
+}
+
+.right img[alt=heart]:hover {
+    content: url('../../../assets/icons/heart1.png');
+}
+
+.right img[alt=shopping-bag]:hover {
+    content: url('../../../assets/icons/shopping-bag1.png');
+}
+
+// --------------- media query
+@media screen and (max-width:768px) {
+    [alt=logo]{
+        content: url(../../../assets/icons/12.png);
+        width: 4rem;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .my-account span {
+        display: none;
+    }
+
+    [alt=logo] {
+        display: none;
+    }
+
+    [alt=smartphone] {
+        display: inline-block;
+        cursor: pointer;
+
+    }
+    [alt=smartphone]:hover{
+        content: url(../../../assets/icons/red-mobile-icon.png);
+    }
+
+    .left span {
+        display: none;
+    }
+
+}
+@media screen and (max-width:425px) {
+    .burger-menu{
+        display: inline-block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .top button:hover::after {
+//     width: 100%;
+// }
+
+
+// .top button:hover {
+//     color: var(--hover-red);
+
+// }
+
+// .navigation {
+//     padding-top: 50px;
+// }
