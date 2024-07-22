@@ -11,12 +11,12 @@
     --hover-red: #AC0101;
 }
 
-// @font-face {
-    // font-family: 'BOSQUE';
-    // src: url('./assets/fonts/BOSQUE.otf') format('opentype'); /* Replace with your font file path and format */
-    // font-weight: normal;
-    // font-style: normal;
-// }
+@font-face {
+    font-family: 'BOSQUE';
+    src: url('../src/assets/font/bosque/BOSQUE.otf') format('opentype'); /* Replace with your font file path and format */
+    font-weight: normal;
+    font-style: normal;
+}
 .modal {
     width: 100%;
     max-width: 1500px;
