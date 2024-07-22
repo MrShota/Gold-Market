@@ -9,7 +9,9 @@ import { GiftComponent } from './gift/gift.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { PricesComponent } from './prices/prices.component';
 import { FooterComponent } from './footer/footer.component';
-import { PracticeComponent} from './practice/practice.component';
+import { PracticeComponent } from './practice/practice.component';
+import { HoverDirective } from './directives/hover.directive';
+
 
 
 @Component({
@@ -26,7 +28,9 @@ import { PracticeComponent} from './practice/practice.component';
       GalleryComponent,
       PricesComponent,
       FooterComponent,
-      PracticeComponent],
+      PracticeComponent,
+      HoverDirective,
+    ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

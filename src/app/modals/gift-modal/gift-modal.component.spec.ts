@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PracticeComponent } from './practice.component';
+import { GiftModalComponent } from './gift-modal.component';
 
-describe('PracticeComponent', () => {
-  let component: PracticeComponent;
-  let fixture: ComponentFixture<PracticeComponent>;
+describe('GiftModalComponent', () => {
+  let component: GiftModalComponent;
+  let fixture: ComponentFixture<GiftModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PracticeComponent]
+      imports: [GiftModalComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PracticeComponent);
+    fixture = TestBed.createComponent(GiftModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

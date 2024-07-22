@@ -1,12 +1,26 @@
 <div class="navigation">
     <div class="left-nav">
-        <a href="#" class="nav-link" (click)="openModal()">JEWELRY</a>
-        <a href="#" class="nav-link" (click)="openModal()">WATCHES</a>
-        <a href="#" class="nav-link" (click)="openModal()">COINS</a>
+        <a href="#" class="nav-link" appHover (mouseover)="showJewelryModal()"
+            (mouseleave)="closeJewelryModal()">JEWELRY</a>
+
+        <a href="#" class="nav-link" appHover (mouseenter)="showWatchModal()"
+            (mouseleave)="closeWatchModal()">WATCHES</a>
+
+        <a href="#" class="nav-link" appHover (mouseenter)="showCoinModal()" (mouseleave)="closeCoinModal()">COINS</a>
     </div>
     <div class="right-nav">
-        <a href="#" class="nav-link" (click)="openModal()">SERVICES</a>
-        <a href="#" class="nav-link" (click)="openModal()">GIFTS</a>
-        <a href="#" class="nav-link" (click)="openModal()">THE MAISON</a>
+        <a href="#" class="nav-link" appHover (mouseenter)="showServiceModal()"
+            (mouseleave)="closeServiceModal()">SERVICES</a>
+
+        <a href="#" class="nav-link" appHover (mouseenter)="showGiftModal()" (mouseleave)="closeGiftModal()">GIFTS</a>
+
+        <a href="#" class="nav-link" appHover (mouseenter)="showMaisonModal()" (mouseleave)="closeMaisonModal()">THE
+            MAISON</a>
     </div>
 </div>
+<app-jewelry-modal *ngIf="jewelryModalShown"></app-jewelry-modal>
+<app-watch-modal *ngIf="watchModalShown"></app-watch-modal>
+<app-coin-modal *ngIf="coinModalShown"></app-coin-modal>
+<app-service *ngIf="serviceModalShown"></app-service>
+<app-gift-modal *ngIf="giftModalShown"></app-gift-modal>
+<app-maison-modal *ngIf="maisonModalShown"></app-maison-modal>

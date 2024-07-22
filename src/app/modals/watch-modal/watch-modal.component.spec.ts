@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PracticeComponent } from './practice.component';
+import { WatchModalComponent } from './watch-modal.component';
 
-describe('PracticeComponent', () => {
-  let component: PracticeComponent;
-  let fixture: ComponentFixture<PracticeComponent>;
+describe('WatchModalComponent', () => {
+  let component: WatchModalComponent;
+  let fixture: ComponentFixture<WatchModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PracticeComponent]
+      imports: [WatchModalComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PracticeComponent);
+    fixture = TestBed.createComponent(WatchModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,34 +1,34 @@
-<div class="modal">
+<div class="modal" *ngIf="isModalShown" (mouseenter)="showModal()" (mouseleave)="closeModal()">
     <div class="gender">
         <h2>GENDER</h2>
-        <a href="#"><span>Male</span></a>
-        <a href="#">Female</a>
-        <a href="#">Unisex</a>
+        <a href="#"><span appHover>Male</span></a>
+        <a href="#" ><span appHover>Female</span></a>
+        <a href="#" ><span appHover>Unisex</span></a>
     </div>
-    <div class="category">
+    <div class="gold-category">
         <h2>GOLD CATEGORY</h2>
-        <a href="#">Ring</a>
-        <a href="#">Necklace</a>
-        <a href="#">Bracelet</a>
-        <a href="#">Cross</a>
-        <a href="#">Pendant</a>
-        <a href="#">Earing</a>
-        <a href="#">View All</a>
+        <a href="#" ><span appHover>Ring</span></a>
+        <a href="#" ><span appHover>Necklace</span></a>
+        <a href="#" ><span appHover>Bracelet</span></a>
+        <a href="#" ><span appHover>Cross</span></a>
+        <a href="#" ><span appHover>Pendant</span></a>
+        <a href="#" ><span appHover>Earing</span></a>
+        <a href="#" ><span appHover>View All</span></a>
     </div>
-    <div class="category-2">
+    <div class="silver-category">
         <h2>SILVER CATEGORY</h2>
-        <a href="#">Ring</a>
-        <a href="#">Necklace</a>
-        <a href="#">Bracelet</a>
-        <a href="#">Cross</a>
-        <a href="#">Pendant</a>
-        <a href="#">Earing</a>
-        <a href="#">View All</a>
+        <a href="#" ><span appHover>Ring</span></a>
+        <a href="#" ><span appHover>Necklace</span></a>
+        <a href="#" ><span appHover>Bracelet</span></a>
+        <a href="#" ><span appHover>Cross</span></a>
+        <a href="#" ><span appHover>Pendant</span></a>
+        <a href="#" ><span appHover>Earing</span></a>
+        <a href="#" ><span appHover>View All</span></a>
     </div>
     <div class="accessories">
         <h2>ACCESSORIES</h2>
-        <a href="#">For Table</a>
-        <a href="#">For Clothing</a>
+        <a href="#" ><span appHover>For Table</span></a>
+        <a href="#" ><span appHover>For Clothing</span></a>
     </div>
     <!-- <div class="images">
        <img src="../../../assets/images/2022_LE-LP-988x988-StylesSettings.jpeg" alt="img">
@@ -36,5 +36,5 @@
        <img src="../../../assets/images/neck-cross-akimov-101.002-crucifix.-guardian-angel-4.jpg" alt="img">
        <img src="../../../assets/images/rhodium-plating.jpg" alt="img"> 
     </div> -->
-    
+
 </div>

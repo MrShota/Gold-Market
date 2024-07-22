@@ -24,10 +24,6 @@
 }
 
 
-.nav-link:hover {
-    color: var(--hover-red);
-}
-
 .nav-link::after {
     content: '';
     display: block;

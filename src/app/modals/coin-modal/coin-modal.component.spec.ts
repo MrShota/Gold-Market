@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PracticeComponent } from './practice.component';
+import { CoinModalComponent } from './coin-modal.component';
 
-describe('PracticeComponent', () => {
-  let component: PracticeComponent;
-  let fixture: ComponentFixture<PracticeComponent>;
+describe('CoinModalComponent', () => {
+  let component: CoinModalComponent;
+  let fixture: ComponentFixture<CoinModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PracticeComponent]
+      imports: [CoinModalComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PracticeComponent);
+    fixture = TestBed.createComponent(CoinModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

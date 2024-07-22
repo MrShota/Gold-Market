@@ -11,9 +11,24 @@
     --hover-red: #AC0101;
 }
 
-@font-face {
-    font-family: 'BOSQUE';
-    src: url('./assets/fonts/BOSQUE.otf') format('opentype'); /* Replace with your font file path and format */
-    font-weight: normal;
-    font-style: normal;
+// @font-face {
+    // font-family: 'BOSQUE';
+    // src: url('./assets/fonts/BOSQUE.otf') format('opentype'); /* Replace with your font file path and format */
+    // font-weight: normal;
+    // font-style: normal;
+// }
+.modal {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+
+    // gap: 20px;
+    position: absolute;
+    left: 10%;
+    background-color: rgba(255, 255, 255, .8);
+    // background-color: rgb(228, 140, 140);    
+
+
+
+    // border: 1px solid red;
 }
