@@ -36,20 +36,34 @@ export class NavigationComponent {
   giftModalShown: boolean = false;
   maisonModalShown: boolean = false;
 
-
+  
   showJewelryModal() {
     this.jewelryModalShown = true;
+
+
+    // თუ მაუს ივენთ თaრგეთი არის ჩაილდ ელემენტი მაშინ ჩაილდს ექნება მაუს ლივ;
+
+
+    // თუ მაუს ივენთ თaრგეთი არის nav-link მაშინ this.jewelryModalShown = false;
+    // if (event.target.classList.value === 'nav-link one') {
+      // this.jewelryModalShown = false;
+      // alert('works')
+
+    // }
+
+
+
+
+
+    // console.log('mouse entered :', event.target.classList.value)
+    // if (event.target) {
+    // }
   }
+
+
   closeJewelryModal() {
-    
-
-
 
     this.jewelryModalShown = false;
-
-
-
-
   }
 
   showWatchModal() {

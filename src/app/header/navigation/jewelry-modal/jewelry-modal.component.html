@@ -1,4 +1,5 @@
-<div class="modal" *ngIf="isModalShown" (mouseenter)="showModal()" (mouseleave)="closeModal()">
+<div class="modal" *ngIf="isModalShown"  (mouseleave)="closeModal()" >
+    <!-- (mouseenter)="openModal()"   -->
     <div class="gender">
         <h2>GENDER</h2>
         <a href="#"><span appHover>Male</span></a>

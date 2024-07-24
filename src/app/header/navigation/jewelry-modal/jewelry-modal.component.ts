@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { HoverDirective } from '../../../directives/hover.directive';
 import { NgIf } from '@angular/common';
 
@@ -11,15 +11,29 @@ import { NgIf } from '@angular/common';
 })
 export class JewelryModalComponent {
 
-  isModalShown:boolean=true;
-
-  showModal(){
-    this.isModalShown=!this.isModalShown;
+  isModalShown:boolean=true
+  
+  // @Output
+  
+  
+  
+  
+  openModal() {
+    this.isModalShown = true;
+    // this.isModalShown=true;
+    // const modalClassName: string = event.target.classList.value
+    // alert(modalClassName)
   }
-  closeModal(){
-    this.isModalShown=!this.isModalShown;
-    
+
+  closeModal() {
+    this.isModalShown = false;
+
   }
 
 
+
+
+
+  
 }
+
