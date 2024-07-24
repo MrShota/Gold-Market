@@ -65,12 +65,18 @@ h1 {
 
     border: none;
     border-radius: 6px;
-    color: white;
     background-color: var(--hover-red);
-    font-size: 5rem;
+    font-size: 4rem;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+
+}
+
+.nine a {
+    color: white;
     text-decoration: none;
-    padding-top: 100px;
+    cursor: pointer;
     padding-left: 100px;
-    // cursor: pointer;
-    // align-self: center;
+
 }
