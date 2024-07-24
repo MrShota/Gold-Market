@@ -23,17 +23,18 @@ h1 {
     max-width: 1440px;
     margin-inline: auto;
 
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     gap: .5em;
-    background-size: cover;
+    flex-basis: auto;
 }
 
 .three,
 .five,
 .seven {
-    width: 48%;
+    // width: 48;
     height: auto;
+    display: inline;
 }
 
 .one,
@@ -42,9 +43,11 @@ h1 {
 .six,
 .eight,
 .nine {
-    width: 25%;
+    // width: 25%;
+    display: inline;
+
     height: auto;
-    position: relative;
+    // position: relative;
     overflow: hidden;
 }
 
@@ -77,6 +80,6 @@ h1 {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 100px;
+    padding-left: 3.5vw;
 
 }
