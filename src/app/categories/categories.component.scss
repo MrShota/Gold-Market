@@ -22,19 +22,13 @@ h1 {
     width: 90%;
     max-width: 1440px;
     margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 
-    // display: flex;
-    // flex-wrap: wrap;
-    gap: .5em;
-    flex-basis: auto;
-}
-
-.three,
-.five,
-.seven {
-    // width: 48;
-    height: auto;
-    display: inline;
+    border: 1px solid red;
 }
 
 .one,
@@ -43,43 +37,36 @@ h1 {
 .six,
 .eight,
 .nine {
-    // width: 25%;
-    display: inline;
+    width: 25vw;
+    height: 300px;
 
-    height: auto;
-    // position: relative;
-    overflow: hidden;
+
+}
+
+.three,
+.five,
+.seven {
+    width: 37vw;
+    height: 300px;
 }
 
 .flex-container img {
     width: 100%;
-    height: 400px;
-    object-fit: contain;
-    border: 1px solid rgb(242, 235, 235);
-
-}
-
-.one img {
-    rotate: -55deg;
-    padding-top: 10px;
+    height: 100%;
+    object-fit: scale-down;
+    overflow: hidden;
+    border: 1px solid gray;
 }
 
 .nine {
-
-    border: none;
-    border-radius: 6px;
-    background-color: var(--hover-red);
-    font-size: 4rem;
+    background-color: red;
     display: flex;
-    // justify-content: center;
     align-items: center;
-
+    justify-content: center;
+    font-size: 80px;
 }
 
 .nine a {
     color: white;
     text-decoration: none;
-    cursor: pointer;
-    padding-left: 3.5vw;
-
 }
