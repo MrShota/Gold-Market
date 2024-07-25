@@ -20,37 +20,45 @@ h1 {
 
 .main-container {
     width: 90%;
+    // height: 300px;
     max-width: 1440px;
     margin-inline: auto;
+    padding-left: 100px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
+    gap: 5%;
+
 
 }
 
 .profile-photo {
     width: 30%;
+    height: 300px;
+    // margin-left: 150px;
+
+    border: 1px solid green;
 }
 
 [alt=expert] {
     width: 100%;
-    object-fit: cover;
+    height: 300px;
+    object-fit:cover;
     border-radius: 6px;
 }
 
 .text {
-    display: inline-block;
     width: 65%;
     height: 300px;
-    font-size: 1.5rem;
-    padding-right: 100px;
+    font-size: 1.8vw;
+    // padding-right: 100px;
 
 }
 
 [alt=diamond] {
-    width: 80px;
+    width: 10vw;
     rotate: -40deg;
     float: right;
+    margin-right: 50px;
+margin-top: -30px;
 }
 
 [alt=right] {
@@ -63,13 +71,14 @@ h1 {
 }
 
 .text :nth-child(2) {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-right: 20px;
 }
 
 .text :nth-child(5) {
-    float: right;
+    // float: right;
+    margin: 0 0 0 270px;
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.7vw;
 }
