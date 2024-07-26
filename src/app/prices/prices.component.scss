@@ -1,0 +1,62 @@
+.top-container {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 1%;
+}
+
+h1 {
+    font-size: 2vw;
+    letter-spacing: 5px;
+}
+
+.line1,
+.line2 {
+    width: 40%;
+    border-top: 1px solid black;
+}
+
+.main-container {
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1.8vw;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+    img {
+        width: 30%;
+        height: 100%;
+    }
+
+
+    .gold,
+    .silver,
+    .platinum {
+
+        width: 20%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        background-color: rgb(222, 220, 220);
+
+
+        .top,
+        .bottom {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+    }
+
+}
